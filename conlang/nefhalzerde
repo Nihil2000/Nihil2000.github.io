@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title>COLFHALES ÞIHILES</title>
+</head>
+<body>
+  <header>
+    <h1 class="headline">
+      <a>ネサルゼルデ語</a>
+    </h1>
+    <ul class="nav-list">
+      <li class="nav-list-item"><a>ホーム</a></li>
+      <li class="nav-list-item"><a>人工言語</a></li>
+      <li class="nav-list-item"><a>架空世界</a></li>
+      <li class="nav-list-item"><a>架空史</a></li>
+    </ul>
+  </header>
+  <main>
+    <h2>ネサルゼルデ語</h2>
+    <p>2020年11月から制作中の人工言語。</p>
+    <h2>文法書</h2>
+    <h2>バージョン</h2>
+  </main>
+  <footer>
+  </footer>
+</body>
+</html>
