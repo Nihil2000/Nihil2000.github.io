@@ -6,9 +6,9 @@ header {
   margin: 0 auto;
   text-align: center;
 }
-
 header .headline{
   font-size: 32px;
+  text-align: center;
 }
 .nav-list {
   text-align: center;
