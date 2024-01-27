@@ -5,6 +5,8 @@ header {
   padding: 15px 0;
   margin: 0 auto;
   text-align: center;
+  background-color: black;
+  color: lightcyan;
 }
 header .headline{
   font-size: 32px;
@@ -14,9 +16,18 @@ header .headline{
   text-align: center;
   padding: 10px 0;
   margin: 0 auto;
+  border-bottom: 4px solid midnightblue;
 }
 .nav-list-item {
   list-style: none;
   display: inline-block;
   margin: 0 20px;
+  color: white;
+}
+.nav-list-item a:link { color:white; }
+.nav-list-item a:visited { color:white; }
+.nav-list-item a:hover { color:lightcyan; }
+.nav-list-item a:active { color:cyan; }
+.nav-list-item:hover2 {
+  background-color: midnightblue;
 }
