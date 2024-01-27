@@ -28,10 +28,10 @@ header .headline{
   background-color: black;
   text-decoration: none;
 }
-.nav-list-item a:link { color:white; }
-.nav-list-item a:visited { color:white; }
-.nav-list-item a:hover { color:lightcyan; }
-.nav-list-item a:active { color:cyan; }
+.nav-list-item a:link { color:white;list-style: none; }
+.nav-list-item a:visited { color:white;list-style: none; }
+.nav-list-item a:hover { color:lightcyan;list-style: none; }
+.nav-list-item a:active { color:cyan;list-style: none; }
 .nav-list-item:hover2 {
   background-color: midnightblue;
 }
