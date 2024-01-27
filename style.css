@@ -23,6 +23,7 @@ header .headline{
   display: inline-block;
   margin: 0 20px;
   color: white;
+  text-decoration: none;
 }
 .nav-list-item a:link { color:white; }
 .nav-list-item a:visited { color:white; }
