@@ -5,17 +5,19 @@ header {
   padding: 15px 0;
   margin: 0 auto;
   text-align: center;
-  background-color: black;
   color: lightcyan;
+  background-color: black;
 }
 header .headline{
   font-size: 32px;
   text-align: center;
+  background-color: black;
 }
 .nav-list {
   text-align: center;
   padding: 10px 0;
   margin: 0 auto;
+  background-color: black;
   border-bottom: 4px solid midnightblue;
 }
 .nav-list-item {
@@ -23,6 +25,7 @@ header .headline{
   display: inline-block;
   margin: 0 20px;
   color: white;
+  background-color: black;
   text-decoration: none;
 }
 .nav-list-item a:link { color:white; }
