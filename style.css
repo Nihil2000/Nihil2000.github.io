@@ -15,6 +15,7 @@ header {
   text-align: center;
   color: lightcyan;
   background: black;
+  overflow: hidden;
 }
 header .headline{
   margin: 0;
