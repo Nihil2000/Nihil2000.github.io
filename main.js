@@ -3,7 +3,7 @@ function header(rootDir){
         url: rootDir + "header.html",
         cache: false,
         success: function(html){
-            html = html.replace(/\{\$root\}/g, rootDir); //footer.htmlの{$root}を置換
+            html = html.replace(/\{\$root\}/g, rootDir);
             document.write(html);
         }
     });
