@@ -4,7 +4,7 @@ function header(rootDir){
         cache: false,
         success: function(html){
             html = html.replace(/\{\$root\}/g, rootDir);
-            document.write(html);
+            document.getElementById('header').innerHTML = html;
         }
     });
 }
