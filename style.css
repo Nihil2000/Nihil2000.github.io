@@ -14,10 +14,10 @@ body {
 }
 
 /*リンク*/
-a:link { color:white;text-decoration:none; }
-a:visited { color:white;text-decoration:none; }
-a:hover { color:lightcyan;text-decoration:none; }
-a:active { color:cyan;text-decoration:none; }
+a:link { color:cyan;text-decoration:none; }
+a:visited { color:turquoise;text-decoration:none; }
+a:hover { color:paleturquoise;text-decoration:none; }
+a:active { color:white;text-decoration:none; }
 
 header {
   width: 100%;
@@ -51,6 +51,10 @@ header .headline{
   text-decoration: none;
   font-size:16px;  /*リスト間の空白をなくすために指定*/
 }
+.nav-list-item a:link { color:white;text-decoration:none; }
+.nav-list-item a:visited { color:white;text-decoration:none; }
+.nav-list-item a:hover { color:lightcyan;text-decoration:none; }
+.nav-list-item a:active { color:cyan;text-decoration:none; }
 .nav-list-item:hover {
   background-color: steelblue;
   border: solid steelblue;
