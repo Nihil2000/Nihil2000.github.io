@@ -24,7 +24,6 @@ header {
   text-align: center;
   color: lightcyan;
   background: black;
-  position: sticky;
   overflow: hidden;
 }
 header .headline{
