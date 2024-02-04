@@ -27,6 +27,8 @@ header {
   color: lightcyan;
   background: black;
   overflow: hidden;
+  position:fixed;
+  top:0;
 }
 header .headline{
   margin: 0;
