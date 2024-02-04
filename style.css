@@ -72,14 +72,14 @@ main {
 /*見出し*/
 h2 {
   margin: 20px 0 0;
-  padding: 0 0 4px;
+  padding: 0 6px 0;
   font-size: 24px;
   border-left: 6px solid lightcyan;
   line-height: 1.2;
 }
 h3 {
   margin: 15px 0 0;
-  padding: 0 0 6px;
+  padding: 0 6px 6px;
   border-bottom: solid 1px lightcyan;
   font-size: 20px;
 }
