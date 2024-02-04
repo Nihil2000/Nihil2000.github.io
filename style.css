@@ -5,12 +5,19 @@
   padding: 0;
 }
 
+/*背景画像*/
 body {
   width: 100%;
   margin: 0;
   background-image: url(image/bg_main_space.jpg);
   color: white;
 }
+
+/*リンク*/
+a:link { color:white;text-decoration:none; }
+a:visited { color:white;text-decoration:none; }
+a:hover { color:lightcyan;text-decoration:none; }
+a:active { color:cyan;text-decoration:none; }
 
 header {
   width: 100%;
@@ -44,10 +51,6 @@ header .headline{
   text-decoration: none;
   font-size:16px;  /*リスト間の空白をなくすために指定*/
 }
-.nav-list-item a:link { color:white;text-decoration:none; }
-.nav-list-item a:visited { color:white;text-decoration:none; }
-.nav-list-item a:hover { color:lightcyan;text-decoration:none; }
-.nav-list-item a:active { color:cyan;text-decoration:none; }
 .nav-list-item:hover {
   background-color: steelblue;
   border: solid steelblue;
