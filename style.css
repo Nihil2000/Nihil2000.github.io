@@ -69,6 +69,8 @@ header .headline{
 main {
   max-width: 1000px;
   margin: 0 8%;
+  margin-left: auto; /*中央揃えのため*/
+  margin-right: auto; /*中央揃えのため*/
   padding: 103px 16px 0;
   height: 100vh;
   background:rgba(0,0,0,0.7)
