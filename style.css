@@ -8,6 +8,8 @@
 body {
   width: 100%;
   margin: 0;
+  background-image: url(image/bg_main_space.jpg);
+  color: white;
 }
 
 header {
@@ -51,4 +53,25 @@ header .headline{
   border: solid steelblue;
   border-width: 5px 20px;
   transition: 0.3s ;
+}
+
+main {
+  margin: 0 8%;
+  padding: 0 10px;
+  background:rgba(0,0,0,0.8)
+}
+
+/*見出し*/
+h2 {
+    margin: 20px 0 0;
+    padding: 0 0 4px;
+    font-size: 30px;
+    border-bottom: 4px solid lightcyan;
+    line-height: 1.4;
+}
+h3 {
+    margin: 15px 0 0;
+    padding: 0 0 6px;
+    border-bottom: solid 1px lightcyan;
+    font-size: 26px;
 }
