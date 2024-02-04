@@ -67,6 +67,7 @@ header .headline{
 }
 
 main {
+  max-width: 1000px;
   margin: 0 8%;
   padding: 103px 16px 0;
   height: 100vh;
