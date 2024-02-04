@@ -67,8 +67,8 @@ header .headline{
 }
 
 main {
+  width:84%
   max-width: 1000px;
-  margin: 0 8%;
   margin-left: auto; /*中央揃えのため*/
   margin-right: auto; /*中央揃えのため*/
   padding: 103px 16px 0;
