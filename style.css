@@ -72,7 +72,7 @@ main {
   margin-left: auto; /*中央揃えのため*/
   margin-right: auto; /*中央揃えのため*/
   padding: 103px 16px 0;
-  height: 100vh;
+  height: 100svh;
   background:rgba(0,0,0,0.6)
 }
 
