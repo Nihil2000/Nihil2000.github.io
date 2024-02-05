@@ -10,6 +10,7 @@ body {
   width: 100%;
   margin: 0;
   background-image: url(image/bg_main_space.jpg);
+  background-attachment: fixed; /*背景を固定*/
   color: white;
 }
 
