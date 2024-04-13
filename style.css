@@ -74,10 +74,10 @@ footer {
   padding: 0;
   width: 100%;
   color: lightcyan;
-  background: midnightblue;
+  background: #000022;
   overflow: hidden;
   position:fixed;
-  top:0;
+  bottom:0;
 }
 footer .copyright{
   margin: 0;
@@ -88,7 +88,7 @@ footer .copyright{
   text-align: left;
 }
 
-
+/*各種要素*/
 main {
   width: 80%;
   max-width: 1000px;
