@@ -80,9 +80,7 @@ footer {
   bottom:0;
 }
 footer .copyright{
-  width: 92%;
-  margin-left: auto; /*中央揃えのため*/
-  margin-right: auto; /*中央揃えのため*/
+  text-indent: 4rem;
   margin: 0;
   padding-top: 2px;
   padding-bottom: 2px;
