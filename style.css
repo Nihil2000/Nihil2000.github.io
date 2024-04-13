@@ -20,6 +20,7 @@ a:visited { color:turquoise;text-decoration:none; }
 a:hover { color:paleturquoise; }
 a:active { color:white; }
 
+/*共通ヘッダー*/
 header {
   margin: 0;
   padding: 0;
@@ -66,6 +67,27 @@ header .headline{
   border-width: 5px 20px;
   transition: 0.3s ;
 }
+
+/*共通フッター*/
+footer {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  color: lightcyan;
+  background: midnightblue;
+  overflow: hidden;
+  position:fixed;
+  top:0;
+}
+footer .copyright{
+  margin: 0;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-size: 8px;
+  color: lightcyan;
+  text-align: left;
+}
+
 
 main {
   width: 80%;
