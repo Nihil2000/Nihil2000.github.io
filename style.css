@@ -141,17 +141,45 @@ dt {
 }
 
 /*画像*/
-figure {
+figure.figure_left{
   margin: auto;
   padding: 5px;
   max-width: 250px;
   display: flex;
   flex-flow: column;
   border: medium #1e384d solid;
+  float: left;
+  margin-right: 1.5em;
 }
-figure img {
+figure.figure_left img {
   max-width: 250px;
   max-height: 165px;
+}
+figure.figure_right{
+  margin: auto;
+  padding: 5px;
+  max-width: 250px;
+  display: flex;
+  flex-flow: column;
+  border: medium #1e384d solid;
+  float: right;
+  margin-left: 1.5em;
+}
+figure.figure_right img {
+  max-width: 250px;
+  max-height: 165px;
+}
+figure.figure_center{
+  margin: auto;
+  padding: 5px;
+  max-width: 750px;
+  display: flex;
+  flex-flow: column;
+  border: medium #1e384d solid;
+}
+figure.figure_center img {
+  max-width: 750px;
+  max-height: 495px;
 }
 figure figcaption {
   background-color: #122533;
@@ -159,19 +187,4 @@ figure figcaption {
   padding: 3px;
   font-size: 11px;
   text-align: center;
-}
-figure.figure_left{
-  float: left;
-  margin-right: 1.5em;
-}
-figure.figure_right{
-  float: right;
-  margin-left: 1.5em;
-}
-figure.figure_center{
-  max-width: 750px;
-}
-figure.figure_center img {
-  max-width: 750px;
-  max-height: 495px;
 }
