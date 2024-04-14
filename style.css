@@ -164,7 +164,10 @@ figure.figure_left{
   float: left;
   margin-right: 1.5em;
 }
-figure.figure_right{
-  float: right;
-  margin-left: 1.5em;
+figure.figure_center{
+  max-width: 750px;
+}
+figure.figure_center img {
+  max-width: 750px;
+  max-height: 495px;
 }
