@@ -111,17 +111,23 @@ h2 {
   box-shadow: 5px 5px 0 #1e384d;
 }
 h3 {
-  margin: 20px 0 0;
-  padding: 0 6px 0;
-  font-size: 21px;
-  border-left: 6px solid lightcyan;
-  line-height: 1.2;
-}
-h4 {
   margin: 15px 0 0;
   padding: 0 6px 6px;
   border-bottom: solid 1px lightcyan;
+  font-size: 21px;
+}
+h4 {
+  margin: 20px 0 0;
+  padding: 0 6px 0;
   font-size: 18px;
+  border-left: 6px solid lightcyan;
+  line-height: 1.2;
+}
+h5 {
+  margin: 3px 5px;
+  font-size: 15px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 /*本文 - 字下げ*/
