@@ -142,12 +142,12 @@ dt {
 
 /*画像*/
 figure {
-  border: thin #1e384d solid;
-  display: flex;
-  flex-flow: column;
+  margin: auto;
   padding: 5px;
   max-width: 250px;
-  margin: auto;
+  display: flex;
+  flex-flow: column;
+  border: thin #1e384d solid;
 }
 figure img {
   max-width: 250px;
