@@ -104,17 +104,24 @@ main {
 
 /*見出し*/
 h2 {
+  padding: 6px 6px;
+  font-size: 24px;
+  background: #284a66;
+  -webkit-box-shadow: 5px 5px 0 #1e384d;
+  box-shadow: 5px 5px 0 #1e384d;
+}
+h3 {
   margin: 20px 0 0;
   padding: 0 6px 0;
-  font-size: 24px;
+  font-size: 21px;
   border-left: 6px solid lightcyan;
   line-height: 1.2;
 }
-h3 {
+h4 {
   margin: 15px 0 0;
   padding: 0 6px 6px;
   border-bottom: solid 1px lightcyan;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /*本文 - 字下げ*/
