@@ -139,3 +139,23 @@ p.indent {
 dt {
   font-weight: bold;
 }
+
+/*画像*/
+figure {
+  border: thin #1e384d solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 250px;
+  margin: auto;
+}
+figure img {
+  max-width: 250px;
+  max-height: 165px;
+}
+figure figcaption {
+  background-color: #122533;
+  color: #fff;
+  padding: 3px;
+  text-align: center;
+}
