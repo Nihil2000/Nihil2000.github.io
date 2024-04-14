@@ -145,6 +145,7 @@ figure {
   margin: auto;
   padding: 5px;
   max-width: 250px;
+  background-color: #325d80;
   display: flex;
   flex-flow: column;
   border: thin #1e384d solid;
@@ -157,5 +158,6 @@ figure figcaption {
   background-color: #122533;
   color: #fff;
   padding: 3px;
+  font-size: 9px;
   text-align: center;
 }
