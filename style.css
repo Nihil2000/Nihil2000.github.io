@@ -74,10 +74,11 @@ footer {
   padding: 0;
   width: 100%;
   color: lightcyan;
-  background: #000022;
+  background: black;
   overflow: hidden;
   position:fixed;
   bottom:0;
+  border-top: 2px solid steelblue;
 }
 footer .copyright{
   text-indent: 1rem;
